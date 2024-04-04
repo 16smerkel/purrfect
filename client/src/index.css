@@ -16,7 +16,8 @@ h2 {
 
 .primary-title {
     font-size: 90px;
-    background-color: white;
+    color: white;
+   /* background-color: white;*/
 }
 
 .primary-button {
@@ -88,7 +89,9 @@ nav .logo-container .logo {
         to bottom,
         rgba(0, 0, 0, 0.65) 0%,
         rgba(0, 0, 0, 0) 100%
-    ), url('images/background.jpg')
+    ), url('images/background2.jpg');
+    background-size: cover; 
+    background-position: center
 }
 
 .home {
